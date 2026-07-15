@@ -32,7 +32,7 @@ namespace DuplicateGameModePlugin.Windows
             entry = currentEntry;
 
             gameModeName.Text = "DupedMode";
-            duplicateFrom.Text = "Levels/MP/Hoth_01/HeroArena";
+            duplicateFrom.Text = App.SelectedAsset.Name;
         }
 
         private void AssetNameTextBox_TextChanged(object sender, TextChangedEventArgs e)
